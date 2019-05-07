@@ -20,7 +20,7 @@ target 'FuelChecker' do
  rn_path = '../node_modules/react-native'
   rn_maps_path = '../node_modules/react-native-maps'
 
-  # See http://facebook.github.io/react-native/docs/integration-with-existing-apps.html#configuring-cocoapods-dependencies
+  #### See http://facebook.github.io/react-native/docs/integration-with-existing-apps.html#configuring-cocoapods-dependencies
   pod 'yoga', path: "#{rn_path}/ReactCommon/yoga/yoga.podspec"
   pod 'React', path: rn_path, subspecs: [
     'Core',
